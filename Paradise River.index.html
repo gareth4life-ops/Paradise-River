@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Paradise River | Escape to Nature</title>
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet" />
+  <style>
+    body { font-family: 'Poppins', sans-serif; }
+    h1, h2, h3 { font-family: 'Playfair Display', serif; }
+  </style>
+</head>
+<body class="bg-stone-50 text-stone-800">
+
+  <!-- Navigation -->
+  <nav class="sticky top-0 z-50 bg-stone-900/90 backdrop-blur-md text-white px-6 py-4 flex justify-between items-center shadow-lg">
+    <a href="#" class="text-2xl font-bold tracking-wide text-emerald-400">Paradise River</a>
+    <div class="hidden md:flex space-x-8 text-sm font-medium">
+      <a href="#about" class="hover:text-emerald-400 transition">About Us</a>
+      <a href="#experiences" class="hover:text-emerald-400 transition">Experiences</a>
+      <a href="#book" class="hover:text-emerald-400 transition">Book Now</a>
+      <a href="#contact" class="hover:text-emerald-400 transition">Contact</a>
+    </div>
+    <a href="#book" class="bg-emerald-600 hover:bg-emerald-500 text-white font-semibold px-5 py-2 rounded-full text-sm transition">Book Today</a>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="relative bg-stone-800 text-white py-32 px-6 text-center bg-cover bg-center flex flex-col justify-center items-center" style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)), url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600&q=80');">
+    <span class="text-emerald-400 uppercase tracking-widest text-sm font-semibold mb-2">Welcome to Nature's Sanctuary</span>
+    <h1 class="text-4xl md:text-6xl font-bold mb-4 leading-tight">Recharge Your Spirit at Paradise River</h1>
+    <p class="text-lg md:text-xl text-stone-200 max-w-2xl mb-8">Experience serene riverfront relaxation, crystal-clear natural waters, and authentic hospitality in Portland Parish.</p>
+    <a href="#book" class="bg-emerald-600 hover:bg-emerald-500 text-white text-lg font-medium px-8 py-3 rounded-full shadow-lg transition transform hover:-translate-y-0.5">Reserve Your Visit</a>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="py-20 px-6 max-w-5xl mx-auto text-center">
+    <h2 class="text-3xl md:text-4xl font-bold mb-4 text-stone-900">A Tranquil River Retreat</h2>
+    <div class="w-16 h-1 bg-emerald-600 mx-auto mb-6"></div>
+    <p class="text-stone-600 text-lg leading-relaxed max-w-3xl mx-auto">
+      Paradise River offers a peaceful escape surrounded by lush tropical greenery and refreshing running waters. Whether you're looking for a relaxing day trip, a group gathering, or an immersive nature experience, we provide a welcoming environment designed for comfort and outdoor appreciation.
+    </p>
+  </section>
+
+  <!-- Experiences / Services Section -->
+  <section id="experiences" class="py-16 bg-stone-100 px-6">
+    <div class="max-w-6xl mx-auto">
+      <div class="text-center mb-12">
+        <h2 class="text-3xl md:text-4xl font-bold text-stone-900">Choose Your Experience</h2>
+        <div class="w-16 h-1 bg-emerald-600 mx-auto mt-4"></div>
+      </div>
+
+      <div class="grid md:grid-cols-3 gap-8">
+        <!-- Card 1 -->
+        <div class="bg-white rounded-2xl p-6 shadow-md border border-stone-200 flex flex-col justify-between">
+          <div>
+            <h3 class="text-xl font-bold text-stone-900 mb-2">Day Pass Visit</h3>
+            <p class="text-stone-600 text-sm mb-4">Enjoy full-day access to our riverfront areas, scenic swimming spots, and relax in nature.</p>
+          </div>
+          <div>
+            <span class="text-2xl font-bold text-emerald-700 block mb-4">$25 USD <span class="text-xs text-stone-500 font-normal">/ person</span></span>
+            <a href="#book" class="block text-center bg-stone-900 hover:bg-stone-800 text-white font-medium py-2 rounded-lg transition text-sm">Select Option</a>
+          </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="bg-white rounded-2xl p-6 shadow-md border-2 border-emerald-600 relative flex flex-col justify-between">
+          <span class="absolute -top-3 right-4 bg-emerald-600 text-white text-xs font-bold uppercase px-3 py-1 rounded-full">Popular</span>
+          <div>
+            <h3 class="text-xl font-bold text-stone-900 mb-2">Guided River Tour & Picnic</h3>
+            <p class="text-stone-600 text-sm mb-4">Includes a guided eco-walk along the riverbank, reserved picnic seating, and refreshing local snacks.</p>
+          </div>
+          <div>
+            <span class="text-2xl font-bold text-emerald-700 block mb-4">$50 USD <span class="text-xs text-stone-500 font-normal">/ person</span></span>
+            <a href="#book" class="block text-center bg-emerald-600 hover:bg-emerald-500 text-white font-medium py-2 rounded-lg transition text-sm">Select Option</a>
+          </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="bg-white rounded-2xl p-6 shadow-md border border-stone-200 flex flex-col justify-between">
+          <div>
+            <h3 class="text-xl font-bold text-stone-900 mb-2">Private Event / Group Booking</h3>
+            <p class="text-stone-600 text-sm mb-4">Reserve exclusive sections of the river property for birthday celebrations, family reunions, or private retreats.</p>
+          </div>
+          <div>
+            <span class="text-2xl font-bold text-emerald-700 block mb-4">Custom Rate</span>
+            <a href="#book" class="block text-center bg-stone-900 hover:bg-stone-800 text-white font-medium py-2 rounded-lg transition text-sm">Inquire Now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Booking Form Section -->
+  <section id="book" class="py-20 px-6 max-w-3xl mx-auto">
+    <div class="bg-white p-8 md:p-12 rounded-2xl shadow-xl border border-stone-200">
+      <div class="text-center mb-8">
+        <h2 class="text-3xl font-bold text-stone-900">Book Your Appointment</h2>
+        <p class="text-stone-600 mt-2 text-sm">Fill out the details below to request your reservation at Paradise River.</p>
+      </div>
+
+      <form id="bookingForm" class="space-y-6">
+        <div class="grid md:grid-cols-2 gap-6">
+          <div>
+            <label class="block text-sm font-semibold text-stone-700 mb-2">Full Name *</label>
+            <input type="text" required placeholder="e.g. John Doe" class="w-full px-4 py-3 rounded-lg border border-stone-300 focus:outline-none focus:ring-2 focus:ring-emerald-500" />
+          </div>
+          <div>
+            <label class="block text-sm font-semibold text-stone-700 mb-2">Email Address *</label>
+            <input type="email" required placeholder="name@example.com" class="w-full px-4 py-3 rounded-lg border border-stone-300 focus:outline-none focus:ring-2 focus:ring-emerald-500" />
+          </div>
+        </div>
+
+        <div class="grid md:grid-cols-2 gap-6">
+          <div>
+            <label class="block text-sm font-semibold text-stone-700 mb-2">Phone / WhatsApp Number *</label>
+            <input type="tel" required placeholder="+1 (876) 000-0000" class="w-full px-4 py-3 rounded-lg border border-stone-300 focus:outline-none focus:ring-2 focus:ring-emerald-500" />
+          </div>
+          <div>
+            <label class="block text-sm font-semibold text-stone-700 mb-2">Number of Guests *</label>
+            <input type="number" min="1" max="50" value="1" required class="w-full px-4 py-3 rounded-lg border border-stone-300 focus:outline-none focus:ring-2 focus:ring-emerald-500" />
+          </div>
+        </div>
+
+        <div class="grid md:grid-cols-2 gap-6">
+          <div>
+            <label class="block text-sm font-semibold text-stone-700 mb-2">Preferred Date *</label>
+            <input type="date" required class="w-full px-4 py-3 rounded-lg border border-stone-300 focus:outline-none focus:ring-2 focus:ring-emerald-500" />
+          </div>
+          <div>
+            <label class="block text-sm font-semibold text-stone-700 mb-2">Experience Option *</label>
+            <select required class="w-full px-4 py-3 rounded-lg border border-stone-300 focus:outline-none focus:ring-2 focus:ring-emerald-500">
+              <option value="">Select an option</option>
+              <option value="day-pass">Day Pass Visit</option>
+              <option value="tour">Guided River Tour & Picnic</option>
+              <option value="private-event">Private Event / Group Booking</option>
+            </select>
+          </div>
+        </div>
+
+        <div>
+          <label class="block text-sm font-semibold text-stone-700 mb-2">Special Requests / Additional Details</label>
+          <textarea rows="4" placeholder="Let us know if you need special arrangements or have dietary preferences..." class="w-full px-4 py-3 rounded-lg border border-stone-300 focus:outline-none focus:ring-2 focus:ring-emerald-500"></textarea>
+        </div>
+
+        <button type="submit" class="w-full bg-emerald-600 hover:bg-emerald-500 text-white font-semibold py-4 rounded-lg shadow-md transition text-lg">Submit Reservation Request</button>
+      </form>
+
+      <div id="confirmationMessage" class="hidden mt-6 p-4 bg-emerald-50 border border-emerald-200 text-emerald-800 rounded-lg text-center font-medium">
+        Thank you for your request! We will contact you shortly via email or WhatsApp to confirm your appointment.
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer / Contact Section -->
+  <footer id="contact" class="bg-stone-900 text-stone-400 py-12 px-6">
+    <div class="max-w-6xl mx-auto grid md:grid-cols-3 gap-8">
+      <div>
+        <h3 class="text-emerald-400 text-xl font-bold mb-4">Paradise River Retreat</h3>
+        <p class="text-sm leading-relaxed">Your tranquil destination for nature, relaxation, and memorable river experiences in Portland, Jamaica.</p>
+      </div>
+
+      <div>
+        <h4 class="text-white font-semibold mb-4">Contact Info</h4>
+        <ul class="space-y-2 text-sm">
+          <li>📍 Location: Portland Parish, Jamaica</li>
+          <li>📞 Phone: +1 (876) 000-0000</li>
+          <li>✉️ Email: info@paradiseriver.com</li>
+        </ul>
+      </div>
+
+      <div>
+        <h4 class="text-white font-semibold mb-4">Hours of Operation</h4>
+        <ul class="space-y-2 text-sm">
+          <li>Monday – Sunday: 8:00 AM – 6:00 PM</li>
+          <li>Private Events: Advanced Reservation Required</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="border-t border-stone-800 mt-12 pt-6 text-center text-xs text-stone-500">
+      &copy; 2026 Paradise River. All rights reserved.
+    </div>
+  </footer>
+
+  <!-- Basic Script for Demo Submission -->
+  <script>
+    document.getElementById('bookingForm').addEventListener('submit', function(e) {
+      e.preventDefault();
+      document.getElementById('bookingForm').classList.add('hidden');
+      document.getElementById('confirmationMessage').classList.remove('hidden');
+    });
+  </script>
+</body>
+</html>
